@@ -62,6 +62,13 @@ header nav ul li {
     height: 500px;
 }
 
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: chocolate;
+    border-radius: 24px 0px;
+}
+
 /*RESPONSIVIDADE*/
 @media (max-width: 767px) {
     
