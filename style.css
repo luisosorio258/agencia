@@ -56,3 +56,44 @@ header nav ul li {
     font-size: 4rem;
 }
 
+/*RESPONSIVIDADE*/
+@media (max-width: 767px) {
+    header {
+        
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        height: calc(100vh - 50px);
+    }
+    
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        background: rgb(6, 172, 150);
+        height: 50px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-weight: bold;
+    }
+
+   header nav p {
+       width: 100%;
+       text-align: center;
+   }
+}
+
+
+
+/*@media (min-width: 768px) and (max-width: 979px) {}*/
+
+/*@media (min-width: 1200px) {}*/
