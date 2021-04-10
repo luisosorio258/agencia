@@ -57,6 +57,11 @@ header nav ul li {
     font-size: 4rem;
 }
 
+.pacotes {
+    background: chartreuse;
+    height: 500px;
+}
+
 /*RESPONSIVIDADE*/
 @media (max-width: 767px) {
     
