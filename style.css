@@ -23,6 +23,7 @@ button {
     font-weight: bold;
     border: 0;
     background: rgb(6, 172, 150);
+    font-family: 'Teko', sans-serif;
 }
 
 header nav{
@@ -58,9 +59,7 @@ header nav ul li {
 
 /*RESPONSIVIDADE*/
 @media (max-width: 767px) {
-    header {
-        
-    }
+    
 }
 
 @media (max-width: 480px) {
