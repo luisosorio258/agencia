@@ -64,12 +64,16 @@ header nav ul li {
 
 .pacotes .pacotes-cards {
     display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pacotes .pacotes-tittle {
     width: 100%;
     text-align: center;
-    margin: auto;
+    margin: 25px 0;
 }
 
 .pacotes .card {
@@ -77,7 +81,7 @@ header nav ul li {
     height: 350px;
     background: white;
     border-radius: 24px 0px;
-    margin: 25px auto;
+    margin: 25px;
     position: relative;
 }
 
@@ -85,6 +89,7 @@ header nav ul li {
     width: 250px;
     height: 200px;
     border-radius: 24px 0 0 0;
+    object-fit: cover;
 }
 
 .pacotes .card-content {
@@ -156,7 +161,7 @@ header nav ul li {
 
 @media (max-width: 480px) {
     body{
-        height: calc(100vh - 50px);
+        margin-bottom: 50px;
     }
     
     header nav ul {
@@ -166,6 +171,8 @@ header nav ul li {
         width: 100%;
         padding: 0;
         margin: 0;
+
+        z-index: 99;
 
         background: rgb(6, 172, 150);
         height: 50px;
