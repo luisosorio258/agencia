@@ -153,6 +153,21 @@ header nav ul li {
     letter-spacing: 1px;
 }
 
+.servicos {
+    padding: 15px;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+}
 
 /*RESPONSIVIDADE*/
 @media (max-width: 767px) {
