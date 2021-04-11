@@ -29,6 +29,7 @@ button {
     border: 0;
     background: rgb(6, 172, 150);
     font-family: 'Teko', sans-serif;
+    cursor: pointer;
 }
 
 header nav{
@@ -322,6 +323,21 @@ header nav ul li {
        text-align: center;
    }
 
+
+   .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+  .header-content p {
+      width: 150px;
+  }
+
+  .header-content button {
+      width: 100px;
+      margin-top: 50px;
+  }
    
 }
 
