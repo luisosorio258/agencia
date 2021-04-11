@@ -1,6 +1,6 @@
 # Site Agencia de viagens
 
-Praticando HTML e CSS
+Praticando HTML e CSS seguindo turorial da [Isadora do @papodedev](https://www.youtube.com/channel/UCRhKK6VrISnIWPJjYxBPKnA)
 
 Oque foi praticado neste projeto:
 - Conceitos de Flexbox
