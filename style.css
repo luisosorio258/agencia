@@ -46,6 +46,7 @@ header nav p {
 header nav ul {
     list-style: none;
     display: flex;
+    
 }
 
 header nav ul li {
