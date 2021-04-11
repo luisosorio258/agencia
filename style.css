@@ -157,6 +157,18 @@ header nav ul li {
     padding: 15px;
 }
 
+.servicos .servicos-tittle {
+    text-align: center;
+}
+
+.servicos-cards {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .servicos .card {
     width: 250px;
     display: flex;
