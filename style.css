@@ -159,14 +159,16 @@ header nav ul li {
 
 .servicos .servicos-tittle {
     text-align: center;
+    margin: 35px 0;
 }
 
-.servicos-cards {
+.servicos .servicos-cards {
     display: flex;
     max-width: 950px;
     margin: auto;
+    
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .servicos .card {
@@ -179,6 +181,17 @@ header nav ul li {
 .servicos .card svg {
     width: 60px;
     height: 60px;
+    margin: 50px 0;
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
 }
 
 /*RESPONSIVIDADE*/
