@@ -129,7 +129,18 @@
 
         
     <script>
-        feather.replace();
+        feather.replace()
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault()
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                })
+            })
+        })
+
         function initMap() {
             // The location of Uluru
             const uluru = { lat: -25.344, lng: 131.036 };
@@ -142,7 +153,7 @@
             const marker = new google.maps.Marker({
                 position: uluru,
                 map: map,
-            });
+            })
         }
     </script>
 
