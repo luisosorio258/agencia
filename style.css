@@ -58,16 +58,27 @@ header nav ul li {
 }
 
 .pacotes {
-    background: chartreuse;
-    height: 500px;
+    background: #e5e5e5;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+}
+
+.pacotes .pacotes-tittle {
+    width: 100%;
+    text-align: center;
+    margin: auto;
 }
 
 .pacotes .card {
     width: 250px;
     height: 350px;
-    background: chocolate;
+    background: white;
     border-radius: 24px 0px;
-    margin: auto;
+    margin: 25px auto;
+    position: relative;
 }
 
 .pacotes .card-image {
@@ -75,6 +86,68 @@ header nav ul li {
     height: 200px;
     border-radius: 24px 0 0 0;
 }
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: grey;
+    
+}
+
+.pacotes .card-content ul li svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: rgb(192, 89, 5);
+    border-radius: 8px 0 0 8px;
+    padding: 1px 10px;
+   
+}
+
+.pacotes .card .card-tag-top p {
+    margin: 0;
+    font-size: 00.8rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 170px;
+    background: rgb(7, 3, 207);
+    border-radius: 0 8px 8px 0;
+    padding: 1px 10px;
+    
+}
+
+.pacotes .card .card-tag-bottom p {
+    margin: 0;
+    font-size: 00.8rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 
 /*RESPONSIVIDADE*/
 @media (max-width: 767px) {
