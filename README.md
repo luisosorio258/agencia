@@ -9,3 +9,4 @@ Oque foi praticado neste projeto:
     -   Usado na seção de contatos do site, seguindo a documentação do Google Maps.
 - Media queries
     -   Todo site com responsividade para smartphones, tablets e desktops.
+--------
